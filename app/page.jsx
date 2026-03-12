@@ -11,7 +11,7 @@ import { MdOutlineMail } from "react-icons/md";
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoIosSunny } from "react-icons/io";
-import { IoIosMoon } from "react-icons/io";
+import { FiMoon } from "react-icons/fi";
 import { BsFront } from "react-icons/bs";
 import { AiOutlineTool } from "react-icons/ai";
 import { BsBoxArrowUpRight } from "react-icons/bs";
@@ -76,7 +76,7 @@ const Page = () => {
 <div>
       <div>
         <button onClick={()=>setDarkMode(!darkMode)} className={`fixed top-0 right-0 px-3 py-2 m-5 bg-gray-200 rounded-lg shadow-md cursor-pointer ${darkMode ? "bg-gray-800" : "bg-gray-300"}`}>
-        {darkMode ? <IoIosSunny size={20} className="text-white"/> : <IoIosMoon size={20} className="text-gray-900 "/>}
+        {darkMode ? <IoIosSunny size={20} className="text-white"/> : <FiMoon size={20} className="text-gray-900 "/>}
         </button> 
       </div>
 
