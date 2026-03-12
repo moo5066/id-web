@@ -110,7 +110,31 @@ const Page = () => {
 </button>
 </div>
 </div>
+
+<div className='mt-15 md:px-30 lg:px-100'>
+  <h1 className='text-xl sm:text-2xl md:text-3xl  font-bold'><span className='border-b-5 border-blue-500'>ABO</span>UT ME</h1>
+  <p className='mt-10'>Hi! My name is <span className='font-bold'>Mohamed Abdulkadir Abdullahi</span>, and I’m a passionate <span className='font-bold'>Front-End Developer.</span> I specialize in <span className='font-bold'>creating responsive, user-friendly, and visually appealing web interfaces</span>. I enjoy turning complex designs into functional, smooth, and interactive web experiences.
+
+I have experience with:<span className='font-bold'>
+
+HTML, CSS, and JavaScript, which form the core of my web development skills.
+
+React.js and Next.js, for building modern and efficient web applications.
+
+Responsive design, ensuring websites look great on any device.
+
+UI/UX awareness</span>, so users not only interact with websites easily but also enjoy the experience.
+
+I’m constantly learning new technologies to stay up to date with the fast-paced world of web development. <span className='font-bold'>My goal is to create interfaces that are not only functional but also enjoyable to use</span>.
+
+If you’re looking for a developer who can turn ideas into engaging web experiences, I’m ready to take on the challenge!</p>
+</div>
+
+
   </div>
+
+
+
 </div>
 </div>
 
