@@ -72,7 +72,7 @@ const Page = () => {
    const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`min-h-screen  p-10 transition-colors duration-300 ${darkMode ? ' bg-gray-900 text-white' : "bg-gray-100 text-gray-900"}`}>
+    <div className={`min-h-screen   p-10 transition-colors duration-300 ${darkMode ? ' bg-gray-900 text-white' : "bg-gray-100 text-gray-900"}`}>
 <div>
       <div>
         <button onClick={()=>setDarkMode(!darkMode)} className={`fixed top-0 right-0 px-3 py-2 m-5 bg-gray-200 rounded-lg shadow-md cursor-pointer ${darkMode ? "bg-gray-800" : "bg-gray-300"}`}>
@@ -131,11 +131,46 @@ If you’re looking for a developer who can turn ideas into engaging web experie
 </div>
 
 <hr className={`mt-15 ${darkMode ? "text-gray-800" : "text-gray-300"}`}/>
+
+{/* <div className={`p mt-10 md:px-30 lg:px-100 ${darkMode ? "bg-gray-800" : "bg-gray-100"}`}> */}
+  <div className='mt-20'>
+    <h1 className='font-bold text-xl text-center sm:text-2xl md:text-3xl'><span className='border-b-5 border-blue-500'>TEC</span>H STACK</h1>
+  </div>
+  <div className='flex flex-col lg:flex-row flex-wrap justify-center gap-6 mt-10'>
+  <div className={`${darkMode ? "bg-gray-800 border border-gray-700 hover:border-green-400" : "bg-white border border-gray-200 hover:border-green-400"}  px-5 py-3   rounded-lg`}>
+    <div className='flex space-x-3 items-center'>
+      <BsFront className="text-green-400"/>
+    <h1 className="text-green-400">Frontend Development</h1>
+    </div>
+    <div className='flex flex-wrap w-full   h-15 gap-2 mt-4 items-center'>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-green-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-green-300'}`}>TypeScript</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-green-300 hover:text-black': 'bg-gray-200 text-gray-800 hover:bg-green-300'}`}>Figma</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-green-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-green-300'}`}>UI/UX</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-green-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-green-300'}`}>React</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-green-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-green-300'}`}>Next.js</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-green-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-green-300'}`}>Tailwind CSS</p>
+    </div> 
+</div>
+
+ <div className={`${darkMode ? "bg-gray-800 border border-gray-700 hover:border-blue-400" : "bg-white border border-gray-200 hover:border-blue-400"}  px-5 py-3   rounded-lg`}>
+    <div className='flex justify-center space-x-3 items-center'>
+      <AiOutlineTool className="text-blue-400 "/>
+    <h1 className="text-blue-400">Tools & Technologies</h1>
+    </div>
+    <div className='flex justify-center w-full  h-15 gap-2 mt-4 items-center'>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-blue-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-blue-300'}`}>Git & GitHub</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-blue-300 hover:text-black': 'bg-gray-200 text-gray-800 hover:bg-blue-300'}`}>VS Code</p>
+      <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-blue-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-blue-300'}`}>Figma</p>
+    </div> 
+</div>
+
+    
+  
   </div>
 
-
-
 </div>
+  </div>
+
 </div>
 
   )
