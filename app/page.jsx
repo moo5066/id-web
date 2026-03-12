@@ -130,7 +130,7 @@ I’m constantly learning new technologies to stay up to date with the fast-pace
 If you’re looking for a developer who can turn ideas into engaging web experiences, I’m ready to take on the challenge!</p>
 </div>
 
-
+<hr className={`mt-15 ${darkMode ? "text-gray-800" : "text-gray-300"}`}/>
   </div>
 
 
