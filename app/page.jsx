@@ -163,13 +163,77 @@ If you’re looking for a developer who can turn ideas into engaging web experie
       <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-blue-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-blue-300'}`}>Figma</p>
     </div> 
 </div>
+    <hr className={`mt-15 ${darkMode ? "text-gray-800" : "text-gray-300"}`}/>
 
+ <div className='mt-10'>
+          <h1 className='text-2xl font-semibold'><span className='border-b-5 border-blue-500'>Feat</span>ured Projects</h1>
+    <div className={`mt-10 min-h-60 ${darkMode ? "bg-gray-800 border border-gray-700 hover:border-blue-400" : "bg-gray-100 border border-gray-200 hover:border-blue-400   rounded-lg hover:scale-105 transition-all duration-300"}`}>
     
+      <div className='px-4 py-3'>
+      <div>
+          <div className='flex flex-row gap-3 items-center '>
+            <h1 className='text-xl font-semibold'>Quiz-web</h1>
+          <Link href='https://github.com'> <BsBoxArrowUpRight size={15} className="hover:text-blue-500"/></Link> 
+          </div>
+
+          <div className='mt-5 flex flex-col gap-6 '>
+
+            <div className='flex flex-row gap-3 items-center'>
+              <GoDotFill size={20} className="text-blue-500 hover:"/>            
+            <p>Test users’ knowledge by letting them answer multiple-choice questions and see their score.</p>
+</div>
+            <div className='flex flex-row gap-3 items-center'>
+              <GoDotFill ize={20} className="text-blue-500"/>            
+            <p>            <p>Provide instant feedback so users know which answers are correct or wrong.</p>
+</p>
+</div>
+            <div className='flex flex-row gap-3 items-center'>
+              <GoDotFill ize={20} className="text-blue-500"/>            
+            <p>Make learning fun and interactive through a simple and engaging quiz interface. 🎯</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
   
+ {/* <div className={`mt-10 min-h-60 ${darkMode ? "bg-gray-800 border border-gray-700 hover:border-blue-400" : "bg-gray-100 border border-gray-200 hover:border-blue-400 px-4 py-3 rounded-lg hover:scale-105 transition-all duration-300"}`}>
+    
+      <div>
+      <div>
+          <div className='flex flex-row gap-3 items-center '>
+            <h1 className='text-xl font-semibold'></h1>
+          <Link href='https://github.com'> <BsBoxArrowUpRight size={15} className="hover:text-blue-500"/></Link> 
+          </div>
+
+          <div className='mt-5 flex flex-col gap-6 '>
+
+            <div className='flex flex-row gap-3 items-center'>
+              <GoDotFill size={20} className="text-blue-500 hover:"/>            
+            <p>Test users’ knowledge by letting them answer multiple-choice questions and see their score.</p>
+</div>
+            <div className='flex flex-row gap-3 items-center'>
+              <GoDotFill ize={20} className="text-blue-500"/>            
+            <p>            <p>Provide instant feedback so users know which answers are correct or wrong.</p>
+</p>
+</div>
+            <div className='flex flex-row gap-3 items-center'>
+              <GoDotFill ize={20} className="text-blue-500"/>            
+            <p>Make learning fun and interactive through a simple and engaging quiz interface. 🎯</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div> */}
   </div>
+
+
+
+
+  
 
 </div>
   </div>
+        </div>
 
 </div>
 
