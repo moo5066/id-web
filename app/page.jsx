@@ -102,12 +102,12 @@ const Page = () => {
   </section>
 
 
-<button className='flex justify-center space-x-5 w-full mt-4'> 
+<div className='flex justify-center space-x-5 w-full mt-4'> 
 <Link href="https://github.com" className={`flex gap-2 items-center ${darkMode ? "bg-gray-800 text-white" : "bg-gray-200 text-gray-800"} p-2 rounded-lg`}><VscGithubAlt size={20}/>Github</Link>
 <Link href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className={`flex gap-2 items-center ${darkMode ? "bg-gray-800 text-white" : "bg-gray-200 text-gray-800"} p-2 rounded-lg`}><FiFacebook size={20}/>Facebook</Link>
 <Link href="mailto:maxamedgoley@gmail.com" className={`flex gap-2 items-center ${darkMode ? "bg-gray-800 text-white" : "bg-gray-200 text-gray-800"} p-2 rounded-lg`}><MdOutlineMail size={20}/>Email</Link>
 
-</button>
+</div>
 </div>
 </div>
 
@@ -130,7 +130,9 @@ I’m constantly learning new technologies to stay up to date with the fast-pace
 If you’re looking for a developer who can turn ideas into engaging web experiences, I’m ready to take on the challenge!</p>
 </div>
 
-<hr className={`mt-15 ${darkMode ? "text-gray-800" : "text-gray-300"}`}/>
+      {/* <hr className={`mt-15  w-full md:w-[50%] ${darkMode ? "text-gray-700 " : "text-gray-300   "}`}/> */}
+            <hr className={`mt-16 md:mx-32 lg:mx-96 ${darkMode ? "border-gray-700" : "border-gray-300"}`}/>
+
 
 {/* <div className={`p mt-10 md:px-30 lg:px-100 ${darkMode ? "bg-gray-800" : "bg-gray-100"}`}> */}
   <div className='mt-20'>
@@ -163,11 +165,11 @@ If you’re looking for a developer who can turn ideas into engaging web experie
       <p className={`px-3 py-1 text-sm font-medium rounded-full ${darkMode ? 'bg-gray-600 text-gray-200 hover:bg-blue-300 hover:text-black' : 'bg-gray-200 text-gray-800 hover:bg-blue-300'}`}>Figma</p>
     </div> 
 </div>
-    <hr className={`mt-15 ${darkMode ? "text-gray-800" : "text-gray-300"}`}/>
-
- <div className='mt-10'>
+    <hr className={`mt-15 ${darkMode ? "text-gray-800 md:px-30 lg:px-100" : "text-gray-300 md:px-30 lg:px-100"}`}/>
+</div>
+ <div className='mt-10 md:px-30 lg:px-100'>
           <h1 className='text-2xl font-semibold'><span className='border-b-5 border-blue-500'>Feat</span>ured Projects</h1>
-    <div className={`mt-10 min-h-60 ${darkMode ? "bg-gray-800 border border-gray-700 hover:border-blue-400" : "bg-gray-100 border border-gray-200 hover:border-blue-400   rounded-lg hover:scale-105 transition-all duration-300"}`}>
+    <div className={`mt-10 min-h-60 ${darkMode ? "bg-gray-800 border border-gray-700 hover:border-blue-400 rounded-lg" : "bg-gray-100 border border-gray-200 hover:border-blue-400 rounded-lg hover:scale-105 transition-all duration-300"}`}>
     
       <div className='px-4 py-3'>
       <div>
@@ -179,16 +181,15 @@ If you’re looking for a developer who can turn ideas into engaging web experie
           <div className='mt-5 flex flex-col gap-6 '>
 
             <div className='flex flex-row gap-3 items-center'>
-              <GoDotFill size={20} className="text-blue-500 hover:"/>            
+              <GoDotFill size={20} className="text-blue-500"/>            
             <p>Test users’ knowledge by letting them answer multiple-choice questions and see their score.</p>
 </div>
             <div className='flex flex-row gap-3 items-center'>
-              <GoDotFill ize={20} className="text-blue-500"/>            
-            <p>            <p>Provide instant feedback so users know which answers are correct or wrong.</p>
-</p>
+              <GoDotFill size={20} className="text-blue-500"/>            
+            <p>Provide instant feedback so users know which answers are correct or wrong.</p>
 </div>
             <div className='flex flex-row gap-3 items-center'>
-              <GoDotFill ize={20} className="text-blue-500"/>            
+              <GoDotFill size={20} className="text-blue-500"/>            
             <p>Make learning fun and interactive through a simple and engaging quiz interface. 🎯</p>
 </div>
           </div>
@@ -226,13 +227,40 @@ If you’re looking for a developer who can turn ideas into engaging web experie
     </div> */}
   </div>
 
+<div className={`min-h-70 ${darkMode ? "bg-gray-900 px-4 py-3" : "bg-gray-100   px-4 py-3"} mt-20 md:px-30 lg:px-100`}>
+  <div>
+  <div className='mb-5'>
+    <h1 className='text-xl font-bold'><span className='border-b-5 border-blue-500'>EDU</span>CATION</h1>
+  </div>
 
+<div>
+<div className='flex flex-col gap-2'>
+  <div className='flex gap-3'>
+  <LuGraduationCap size={50} className={`bg-gray-200  rounded-lg text-blue-500 ${darkMode ? "bg-gray-800 text-gray-200 p-2 " : "bg-gray-200 text-gray-800 p-2"}`}  />
+  <div>
+  <div>
+<h1 className='font-bold'>Computer Science Student</h1>
+<p className='text-gray-500'>SIMAD UNIVERSITY</p>
+<p className='text-sm text-gray-400'>Graduation Time :2029</p>
+</div>
+</div>
+</div>
+</div>
 
-
-  
+<div className={`mt-10  flex flex-col md:w-[50%] ap-1 p-2 rounded-lg  ${darkMode ? "border border-gray-700 hover:border-blue-400" : "border border-gray-200 hover:border-blue-400"}`}>
+  <h1 className='text-lg '>Frontend Developer</h1>
+  <p className='text-gray-400'>Udemy</p>
+</div>
 
 </div>
-  </div>
+</div>
+  
+      <hr className={`mt-15 text-center ${darkMode ? "text-gray-700 md:px-30 lg:px-100 " : "text-gray-300 md:px-30 lg:px-100 "}`}/>
+
+
+</div>
+  
+        </div>
         </div>
 
 </div>
