@@ -86,7 +86,7 @@ const Page = () => {
   <div className='text-center '>
    <Image
   
-  src="/Moo.jpeg"
+  src="/SecMoha.jpeg"
   alt="Mohamed Abdulkadir Abdullahi"
   width={250}
   height={250}
